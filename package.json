@@ -16,7 +16,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "mkdir -p dist && cp -r public/* dist/"
   },
   "keywords": [],
   "author": "",
